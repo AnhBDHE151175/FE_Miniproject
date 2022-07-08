@@ -1,0 +1,88 @@
+.profile-user {
+    display: flex;
+    justify-content: start;
+    margin-left: 100px;
+    height: 100px;
+}
+.img-user {
+    border: 1px solid ;
+    width: 80px;
+    height: 80px;
+    border-radius: 30%;
+    object-fit: cover;
+}
+.info-user{
+    width: 50px;
+}
+.name-user {
+    font-size: 45px;
+    line-height: 40px;
+}
+.role-user{
+    margin-left: 15px;
+}
+.checkin-user-button{
+    border: none;
+    background-color: black;
+    margin-bottom: 50px;
+    float: right;
+    width: 680px;
+    padding-right: 200px;
+}
+.checkin-user:hover{
+    background-color: #20813a;
+}
+.checkin-user{
+    border-radius: 30px;
+    height: 80px;
+    width: 680px;
+    margin-left: 200px;
+    background-color: #20c04b;
+    display: flex;
+    justify-content: start;
+}
+.checkin-user-text{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Lucida Console', "Courier New", monospace;
+    margin-left: 20px;
+    height: 40px;
+}
+
+
+.checkout-user-button{
+    border: none;
+    background-color: transparent;
+    margin-bottom: 50px;
+    float: right;
+    width: 680px;
+}
+.checkout-user:hover{
+    background-color: #611212;
+}
+.checkout-user{
+    border-radius: 30px;
+    height: 80px;
+    width: 680px;
+    margin-left: 200px;
+    background-color: #b94b0b;
+    display: flex;
+    justify-content: start;
+}
+.checkout-user-text{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Lucida Console', "Courier New", monospace;
+    margin-left: 20px;
+    height: 40px;
+}
+.checkin-calendar{
+    height: 550px;
+}
+.current-date{
+    margin-top: 50px;
+    margin-left: -140px;
+    height: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}

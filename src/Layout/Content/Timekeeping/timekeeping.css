@@ -1,0 +1,19 @@
+.sider-sider{
+  background-color: white;
+}
+
+.avatar{
+  margin-top: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.site-button-ghost-wrapper {
+  padding: 26px 16px 16px;
+  background: rgb(194, 179, 179);
+  display: flex;
+  justify-content: space-between;
+}
+
